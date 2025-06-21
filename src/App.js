@@ -6,7 +6,8 @@ import NavBar from "./components/NavBar";
 import News from "./components/News";
 
 const App = () => {
-  const apikey = process.env.REACT_APP_NEWS_API;
+  const apikey = "bb472c13d7a740bf9e658ba7028ed1ec";
+  // const apikey = process.env.REACT_APP_NEWS_API;
 
   const [progress, setProgress] = useState(0);
 
